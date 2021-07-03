@@ -35,13 +35,14 @@ module AWS #:nodoc:
     
     API_VERSION = '2010-12-01'
 
-    DEFAULT_REGION = 'us-east-1'
+    DEFAULT_REGION = 'eu-west-1'
 
     SERVICE = 'ses'
 
-    DEFAULT_HOST = 'email.us-east-1.amazonaws.com'
+    DEFAULT_HOST = 'email.eu-west-1.amazonaws.com'
 
-    DEFAULT_MESSAGE_ID_DOMAIN = 'email.amazonses.com'
+    DEFAULT_MESSAGE_ID_DOMAIN = 'eu-west-1.amazonses.com'
+
     
     UNSIGNED_HEADERS = ['content-length', 'user-agent', 'authorization']
 
